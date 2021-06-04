@@ -11,8 +11,6 @@ public class PostData {
     public PostData(String firstName, String lastName, int subjectId, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.subjectId = subjectId;
-        this.id = id;
     }
 
 
