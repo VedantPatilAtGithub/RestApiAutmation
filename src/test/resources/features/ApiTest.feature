@@ -7,6 +7,13 @@ Feature: Test Localhost API
       |URL|code|
       |http://localhost:3000/|200|
 
+  Scenario Outline: User is able to validate json schema
+    Given User sets the base API request <URL>
+    Then User validates the json schema status code<code>
+    Examples:
+      |URL|code|
+      |http://localhost:3000/|200|
+
   Scenario Outline: User is able to post data to Localhost API
     Given User sets the base API request <URL>
     When User sends the API post requests
@@ -14,6 +21,7 @@ Feature: Test Localhost API
     Examples:
       |URL|code|
       |http://localhost:3000/|201|
+
 
   Scenario Outline: User is able to delete user from Localhost API
     Given User sets the base API request <URL>

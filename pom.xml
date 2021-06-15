@@ -35,28 +35,16 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
-
         <groupId>io.cucumber</groupId>
-
         <artifactId>cucumber-java</artifactId>
-
         <version>6.10.4</version>
-
     </dependency>
-
-
         <dependency>
-
         <groupId>io.cucumber</groupId>
-
         <artifactId>cucumber-junit</artifactId>
-
         <version>6.10.4</version>
-
         <scope>test</scope>
-
     </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -64,6 +52,22 @@
             <version>5.7.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+
     </dependencies>
 
 </project>
